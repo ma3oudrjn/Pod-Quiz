@@ -1,11 +1,22 @@
-# Pod-Quiz
+Pod-Quiz
+Cloning the Repository
+git clone https://github.com/ma3oudrjn/Pod-Quiz.git
 
-clone code : 
 
-1-npm i 
-2-run redis on 6380 poet
-3-npm run dev for running code
+Installation
+1-Install the necessary dependencies:
+npm install
 
-swagger is available on http://localhost:9200/api-docs/
+Running Redis
+1-Ensure Redis is running on port 6380.
 
-<b2>and this is api you looking for: http://localhost:9200/api/cart</b2>
+Starting the Application
+npm run dev
+
+API Documentation
+Swagger documentation is available at:
+http://localhost:9200/api-docs/
+
+API Endpoint
+For the cart API, visit:
+http://localhost:9200/api/cart
